@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="idBean1" name="bean1 beanA,beanUno;b1"
+          class="com.turreta.springboot.springcore.beanalias.javaconfig.comturretaspringbootspringcorebeanaliasjavaconfig.BeanOne"/>
+    <alias name="bean1" alias="bA"/>
+
+    <bean id="idBean2" name="bean2 beanB,beanDos;b2"
+          class="com.turreta.springboot.springcore.beanalias.javaconfig.comturretaspringbootspringcorebeanaliasjavaconfig.BeanTwo"/>
+    <alias name="bean2" alias="bB"/>
+
+</beans>
